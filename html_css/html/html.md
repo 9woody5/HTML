@@ -6,7 +6,7 @@
 
   - Text contents
   - Image, Video, Audio contents
-    -Embed contents
+    -Embeded contents
 
 - Structure
 
@@ -208,6 +208,15 @@ EX) www.w3schools.com(도메인주소)/html(상세경로)/default.asp(파일정�
 <img src="html5.gif" alt="이미지 설명">
 ```
 
+-이미지 형식
+  -비트맵(포토샵), 벡터(일러스트레이터) 이미지
+    -비트맵 이미지 형식
+    -jpg: 사진
+    -png: 투명 배경
+    -gif: 용량이 적음 - 로고, 애니메이션
+  -벡터 이미지
+    -svg
+
 ### HTML Video
 
 -video
@@ -231,3 +240,50 @@ EX) www.w3schools.com(도메인주소)/html(상세경로)/default.asp(파일정�
 ```
 <iframe src="youtube-url?parameter1=0&paremater2=1&parameter3=0"></iframe>
 ```
+
+## HTML Structure
+
+### Semantic Element
+
+-Grouping 또는 구분하는 Element를 의미있게 사용
+-의미있는 grouping element가 추가
+-Contents Element와 Semantic Element를 목적에 맞게 제대로 구성하는 것이
+ 검색엔진(SEO:search engine optimization)에 웹사이트 관련 정보를 잘 노출시킬 수 있는 방법 중 하나
+
+-header
+  -소개 컨텐츠 (logo...), 탐색링크(상단메뉴, 검색바), 로그인, 언어선택...
+
+-nav(navigation)
+  -메뉴
+
+-section
+  -제목, 내용으로 구성된 하나의 영역
+
+-article
+  -독립적인 글 또는 컨텐츠
+
+-aside
+  -부수적인 컨텐츠 영역
+
+-footer
+  -연락처
+  -사이트맵
+  -저작권
+  -연관 링크
+
+-figure
+  -embeded contents 또는 그림형태의 콘텐츠를 grouping 하는 요소
+
+### Container Element
+
+-단순 구역 나누는 / grouping 하는 요소
+-div(division)
+-span
+
+## 파일 경로 표시 방식
+
+-절대 경로(주소) 방식
+  -항상 똑같은 경로(주소) 표시 가능
+
+-상대 경로(주소) 방식
+  -기준에 따라서 상대적으로 경로(주소) 표시 형태가 변경
