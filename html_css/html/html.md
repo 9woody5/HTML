@@ -229,5 +229,5 @@ EX) www.w3schools.com(도메인주소)/html(상세경로)/default.asp(파일정�
 (링크) 깃허브 포크 자료 참조
 
 ```
-<iframe src="youtube-url?parameter=1"></iframe>
+<iframe src="youtube-url?parameter1=0&paremater2=1&parameter3=0"></iframe>
 ```
