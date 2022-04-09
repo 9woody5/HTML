@@ -211,9 +211,23 @@ EX) www.w3schools.com(도메인주소)/html(상세경로)/default.asp(파일정�
 ### HTML Video
 
 -video
+  -이름만 사용하는 attribute는 on/off 기능 형태
+  -controls: 영상 컨트롤러 표시
+  -autoplay: 자동 재생
+  -muted: 소리 제거
 
 ```
 <video>
   <source src="www.daum.net/video.movie.mp4" type="video/mp4">
 </video>
+```
+
+### Youtube Video
+
+-option, parameter(매개변수)
+
+(링크) 깃허브 포크 자료 참조
+
+```
+<iframe src="youtube-url?parameter=1"></iframe>
 ```
