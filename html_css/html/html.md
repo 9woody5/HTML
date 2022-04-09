@@ -23,7 +23,7 @@
     <title></title>
   </head>
 
-  <body>: 웹페이지의 본문 영역 - 웹페이즤 모든 콘텐츠 표시
+  <body>: 웹페이지의 본문 영역 - 웹페이지의 모든 콘텐츠 표시
   </body>
 
 </html>
@@ -36,7 +36,7 @@
 ```
 <tag>contents</tag>: 시작태그, 종료태그로 구성
 
-<tag>: 시작 태그만 -존재하는 경우  빈 요소(Empty Element)
+<tag>: 시작 태그만 존재하는 경우  빈 요소(Empty Element)
 ```
 
 -포함관계(Nested Element)
@@ -143,4 +143,56 @@ EX) 192.168.0.1
 
 IP 또는 Domain 주소/상세경로/파일정보
 EX) www.w3schools.com(도메인주소)/html(상세경로)/default.asp(파일정보)
+```
+
+### HTML table
+
+```
+<table>: 테이블 작성
+  <tr>: table row - 행
+    <th></th>: table header - 열제목
+  </tr>
+  <tr>
+    <td</td>: table data - 데이터
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+```
+
+### HTML List
+
+-ul(Unordered List): 순서 없는 목록
+  -기호로 표시
+-ol(Ordered List): 순서 있는 목록
+  -숫자로 표시
+-li(List Item): 목록 아이템
+-중첩 목록(Nested List)
+  - 목록 안에 작은 목록이 포함되는 경우
+
+```
+<ul>
+  <li>HTML</li>
+  <li>css</li>
+  <li>js</li>
+</ul>
+
+<ol>
+  <li>HTML</li>
+  <li>css</li>
+  <li>js</li>
+</ol>
+```
+
+-Description List: 설명 목록
+  -dl(list)
+  -dt(title)
+  -dd(data)
+
+```
+<dl>
+  <dt>목록 주제</dt>
+  <dd>목록 설명</dd>
+</dl>
 ```
