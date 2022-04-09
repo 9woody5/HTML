@@ -284,6 +284,39 @@ EX) www.w3schools.com(도메인주소)/html(상세경로)/default.asp(파일정�
 
 -절대 경로(주소) 방식
   -항상 똑같은 경로(주소) 표시 가능
+  -주소 표시 방식이 복잡함
+```
+href="www.naver.com/html/home.html"
+src="www.instagram.com/html/photo.jpg"
+```
 
 -상대 경로(주소) 방식
-  -기준에 따라서 상대적으로 경로(주소) 표시 형태가 변경
+  -출발 위치 기준에 따라서 상대적으로 경로(주소) 표시 형태가 변경
+  -같은 자원의 위치에 대한 표시 방식이 너무 많음
+  -자원의 위치가 이동하면 주소를 모두 수정해야함
+  -../: 한 단계 상위 폴더로 이동
+```
+/ - html - home.html
+         - sub.html
+  - images - photo.jpg
+
+위치 기준: sub.html
+
+href="home.html"
+src="../images/photo.jpg"
+```
+
+-root 상대 경로 방식
+  -root: 최상위 경로(/)
+  -root 경로에서부터 찾아갈 수 있도록 상대 경로 방식을 변형
+
+```
+/ - html - home.html
+         - sub.html
+  - images - photo.jpg
+
+위치 기준: sub.html
+
+href="/html/home.html"
+src="/images/photo.jpg"
+```
