@@ -108,9 +108,39 @@ WYSWYG(what you see is what you get:네가 보는 것이 얻는 것이다)
 
 - a(nchor): 하이퍼링크 연결하는 태그
 - href: 목적지 정보 제공 속성 (atrribute)
+- bookmark -연결된 페이지로 이동하지 않고, 같은 페이지 내에서 위아래 이동
 
 ```
+-page link
 <a href="url">텍스트</a>
+
+-bookmark
+
+-Link
+<a href="#target">목적지</a>
+
+-target
+<h2 id="target">단락 제목</h2>
+
 ```
 
--url(Uniform Resource Locator): 파일 위치 식별자
+-url(Uniform Resource Locator): 파일 위치 식별자 - 상세주소
+
+-인터넷 주소 체계
+-IP(Internet Protocol) address: 인터넷에서 사용하는 주소
+-Domain name: IP주소를 영어 단어로 표현 
+-서버종류: www 
+-회사이름: naver, daum 
+-기관성격: com, net(3자리), co, go, ac (4자리) -국가(4자리): kr, uk, ca, fr...
+
+```
+-IP: 0~255까지의 숫자 4개로 구성
+EX) 192.168.0.1
+
+-인터넷 접속 프로세스: 주소표시줄에 Domain Nam 입력 => IP 주소로 변환 => 접속
+
+-URL 체계
+
+IP 또는 Domain 주소/상세경로/파일정보
+EX) www.w3schools.com(도메인주소)/html(상세경로)/default.asp(파일정보)
+```
