@@ -6,6 +6,7 @@
 
   - Text contents
   - Image, Video, Audio contents
+    -Embed contents
 
 - Structure
 
@@ -195,4 +196,24 @@ EX) www.w3schools.com(도메인주소)/html(상세경로)/default.asp(파일정�
   <dt>목록 주제</dt>
   <dd>목록 설명</dd>
 </dl>
+```
+
+### HTML Image
+
+-img(빈 요소)
+-src(source): 이미지 파일 경로/파일명 표시
+-alt(alternative): 대체 텍스트
+
+```
+<img src="html5.gif" alt="이미지 설명">
+```
+
+### HTML Video
+
+-video
+
+```
+<video>
+  <source src="www.daum.net/video.movie.mp4" type="video/mp4">
+</video>
 ```
