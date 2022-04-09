@@ -88,6 +88,7 @@ WYSWYG(what you see is what you get:네가 보는 것이 얻는 것이다)
 ```
 
 - 강제 줄바꿈: br(eak)태그를 사용
+
   - 시작 태그만 존재하는 빈 요소(Empty Element)
 
 - 강제 공백: &nbsp;(Non-break Space)(엔터티 코드)
@@ -104,11 +105,12 @@ WYSWYG(what you see is what you get:네가 보는 것이 얻는 것이다)
   - 빈 요소
 
 ### HTML Link
-  - a(nchor): 하이퍼링크 연결하는 태그
-  - href: 목적지 정보 제공 속성 (atrribute)
 
-  ```
-  <a href="url">텍스트</a>
-  ```
+- a(nchor): 하이퍼링크 연결하는 태그
+- href: 목적지 정보 제공 속성 (atrribute)
 
-  -url(Uniform Resource Locator): 파일 위치 식별자
+```
+<a href="url">텍스트</a>
+```
+
+-url(Uniform Resource Locator): 파일 위치 식별자
