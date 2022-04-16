@@ -241,6 +241,23 @@ EX) www.w3schools.com(도메인주소)/html(상세경로)/default.asp(파일정�
 <iframe src="youtube-url?parameter1=0&paremater2=1&parameter3=0"></iframe>
 ```
 
+### 콘텐츠 강조
+
+-제목의 역할까지는 아니지만 중요, 강조 의미를 가진 텍스트 표시
+
+-em(emphasized)
+-strong
+-mark
+
+```
+strong > mark > em
+```
+
+### 그 밖의 Text Element
+
+-b(bold)
+-i(italic)
+
 ## HTML Structure
 
 ### Semantic Element
@@ -320,3 +337,28 @@ src="../images/photo.jpg"
 href="/html/home.html"
 src="/images/photo.jpg"
 ```
+
+head 태그 요소, 비트 계산 - 1p, 문자표시, 색표시
+
+## Block & Inline
+
+- 구역을 구분하는 Sementic Element, Container Element 뿐만 아니라 
+Content를 표현하는 Element로 화면에 영역으로 표시함
+
+## Block Element
+
+- 요소의 영역이 부모 요소를 기준으로 가능한 최대 너비로 채워짐
+- 요소와 요소는 줄바꿈되어 새 줄에 표시됨
+
+### Inline Element
+
+- 요소의 영역이 Contents 또는 자식 요소를 기준으로 맞춰짐
+- 요소와 요소는 한 줄에 나란히 표시가 됨
+
+## head 태그
+
+-meta: 웹사이트 추가 정보
+-title: 웹사이트 대표 제목
+-link, script: css, js 파일 불러올 때 사용
+-style, script: css, js 코드를 직접 사용할 때 사용
+
