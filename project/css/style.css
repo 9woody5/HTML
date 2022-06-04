@@ -169,6 +169,10 @@ font-family: 'Nunito Sans', sans-serif; */
   color: #10c9c3;
 }
 
+.mobile-btn{
+  display:none;
+}
+
 .section1 {
   height: 320px;
   background: #f6f6f6;
@@ -338,6 +342,48 @@ font-family: 'Nunito Sans', sans-serif; */
 
 /* smart phone */
 @media screen and (max-width:700px){
+  .header{
+    padding:20px;
+    height:66px;
+  }
+
+  .gnb{
+    position:absolute;
+    top:66px;
+    left:0;
+    width:100%;
+    height:300px;
+    background:#fff;
+    display:none;
+  }
+
+  .gnb.on{
+    display:block;
+  }
+
+  .gnb-list{
+    display:block;
+  }
+
+  .gnb-list-item{
+    margin:20px 0;
+    text-align:center;
+  }
+
+  .mobile-btn{
+    display:block;
+    width:31px;
+    height:25px;
+    background:none;
+    border:none;
+    padding:0;
+  }
+
+  .mobile-btn>img{
+    width:31px;
+    height:25px;
+  }
+
   /* home */
   .group{
     width:340px;
