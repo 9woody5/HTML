@@ -33,16 +33,18 @@
 
 #### 데이터 타입(종류)
 
-  - 문자
+- 문자
 
-    - 따옴표로 묶어줌
-      Ex) 'Volvo', '10'
+  - 따옴표로 묶어줌
+    Ex) 'Volvo', '10'
 
-  - 숫자
-    - 정수, 실수
-  
-  - 불리언(Boolean)
-    - true, false
+- 숫자
+
+  - 정수, 실수
+
+- 불리언(Boolean)
+
+  - true, false
 
 - 데이터 타입 구분 여부
 
@@ -57,11 +59,13 @@
 ```
 
 #### 변수
-  - 데이터를 저장하는 공간(컨테이너)
-  - 사용
-    - 변수 선언
-    - 변수 초기화
-    - 데이터 할당
+
+- 데이터를 저장하는 공간(컨테이너)
+- 사용
+
+  - 변수 선언
+  - 변수 초기화
+  - 데이터 할당
 
 - 예약어(keyword)
 
@@ -74,6 +78,7 @@ var b = 20;
 ```
 
 - var, let, const
+
   - var : ~ES5
   - let, const : ES6~
 
@@ -82,16 +87,17 @@ var b = 20;
 - const
   - 데이터 초기화 할당 이후에 변수값을 변경할 수 없음
 
-
 #### 연산(자)
 
 - 산술 연산자
-  - +, -, *, /
+
+  - +, -, \*, /
   - % : 나머지 연산
 
 - 할당 연산자
   - =
-  - +=, -=, *=, /=
+  - +=, -=, \*=, /=
+
 ```
 let a = 0; // 0을 a 변수에 할당(대입)
 a += 3;
@@ -109,7 +115,7 @@ sum--; // 감소 연산, 카운터(감소)
 ```
 
 - 문자 연산자
-  - + : 연결 연산자
+  - - : 연결 연산자
 
 ```
 'Hello' + 'World' => HelloWorld
@@ -290,6 +296,7 @@ function(){
 ### 배열/객체/Class
 
 - 참조형 데이터
+
   - 기본형 데이터는 변수 저장공간에 데이터가 직접 저장되지만
     참조형 데이터는 제3의 공간에 데이터가 저장되고 변수 저장공간에는 데이터가
     저장된 위치값이 저장됨
@@ -362,6 +369,7 @@ const a = {
 #### DOM 객체
 
 - Javascript
+
   - ES5, ES6 : 기본 javascript
   - HTML DOM : HTML API
 
@@ -376,6 +384,7 @@ document.innerHTML // DOM 객체의 내용 추가, 변경
 - Method
   - Access(접근)
   - HTML4 API
+
 ```
 <h1 id="heading" class="title">heading</h1>
 
@@ -384,7 +393,8 @@ document.getElementsByTagName('h1')
 document.getElementsByClassName('title')
 ```
 
-  - HTML5 API
+- HTML5 API
+
 ```
 <h1 id="heading" class="title">heading</h1>
 <h1 class="title">heading</h1>
@@ -396,11 +406,13 @@ document.querySelector('.title')
 document.querySelectorAll('h1')
 document.querySelectorAll('.title')
 ```
-  - Js 동적 작업
-    - Create
-    - Read
-    - Update
-    - Delete/Remove
+
+- Js 동적 작업
+  - Create
+  - Read
+  - Update
+  - Delete/Remove
+
 ```
 document.createElement()
 document.appendChild() // DOM에 객체를 추가 => 웹페이지에 표시
@@ -412,18 +424,23 @@ document.removeChild()
 
 - 속성 변경
   - HTML attribute
+
 ```
 element.setAttribute()
 ```
-  - CSS property
+
+- CSS property
+
 ```
 element.style.property = value
 ```
-** JS로 CSS를 제어할 때는 inline 방식으로만 제어가 가능, JS는 CSS를 직접 제어할 수는 없음
+
+\*\* JS로 CSS를 제어할 때는 inline 방식으로만 제어가 가능, JS는 CSS를 직접 제어할 수는 없음
 
 ### Form 요소
 
 - input
+
   - type="text" : text 한줄 입력
   - type="password" : password 입력, 내용표시X
   - type="checkbox" : 중복선택이 가능
@@ -434,21 +451,23 @@ element.style.property = value
   - type="button" : 일반 버튼
 
 - select
+
   - option 요소를 사용해서 목록의 아이템
 
 - button
   - submit, reset, button 3가지 type
 
-
 ### 이벤트(Event)
 
 - 상태변화
+
   - 현재 상태에서 다른 상태로의 변화
-  Ex) 내용입력, 마우스클릭, 마우스이동 ...
+    Ex) 내용입력, 마우스클릭, 마우스이동 ...
   - 이벤트 발생
     - 상태 변화에 따른 신호 표시
 
 - 상태 변화에 따라 특정 기능 실행
+
   - 이벤트 리스닝
     - 발생된 이벤트 감지
   - 이벤트 핸들링
@@ -470,7 +489,13 @@ element.style.property = value
 - slide in/out
 
 - image(visual) rolling / carousel 효과
+
   - 이미지 또는 비주얼 요소를 순서대로 반복해서 보여줄 때 사용하는 효과
+  - 시작 상태와 끝상태를 반복하는 것이 아니고 지속적으로 다음 단계로 이동
+
+```
+
+```
 
 - animation, motion 효과
   - 시작상태에서 끝상태로 변화할때 중간 과정을 모두 보여주는 것
@@ -479,3 +504,16 @@ element.style.property = value
     - css3 추가된 property(transform)
     - transition 속성을 추가해서 중간과정을 표시
 
+### transition
+
+- 상태 변화의 중간 과정을 표현
+
+```
+transition:속성 시간;
+
+transition:width 2s;
+
+transition:all 2s;
+
+transition:width 2s, height 4s;
+```

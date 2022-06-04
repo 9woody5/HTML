@@ -7,7 +7,10 @@
     <title>Web Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/project/css/style.css" />
     <script src="/project/js/function.js" defer></script>
   </head>
@@ -21,10 +24,10 @@
         <!-- Global Navigation Bar -->
         <ul class="gnb-list">
           <li class="gnb-list-item">
-            <a href="#" class="gnb-list-link">HOME</a>
+            <a href="/project/html/home.html" class="gnb-list-link">HOME</a>
           </li>
           <li class="gnb-list-item">
-            <a href="#" class="gnb-list-link">ABOUT</a>
+            <a href="/project/html/about.html" class="gnb-list-link">ABOUT</a>
           </li>
           <li class="gnb-list-item">
             <a href="#" class="gnb-list-link">CONTACT</a>
@@ -32,19 +35,43 @@
         </ul>
       </nav>
       <button type="button" class="mobile-btn">
-        <img src="/project/resources/hamburger-menu.svg">
+        <img src="/project/resources/hamburger-menu.svg" />
       </button>
     </header>
     <section class="section1">
-      <h2 class="section-heading">UI/UX & Graphic Designer</h2>
-      <p class="section-paragraph">
-        HTML5는 HTML 4.01, XHTML 1.0, DOM 레벨 2 HTML에 대한 차기 표준 제안이다.
-        비디오, 오디오 등 다양한 부가기능과 최신 멀티미디어 콘텐츠를 액티브X
-        없이 브라우저에서 쉽게 볼 수 있게 하는 것을 목적으로 한다.
-      </p>
+      <div class="visual-item current">
+        <h2 class="section-heading">UI/UX & Graphic Designer1</h2>
+        <p class="section-paragraph">
+          HTML5는 HTML 4.01, XHTML 1.0, DOM 레벨 2 HTML에 대한 차기 표준
+          제안이다. 비디오, 오디오 등 다양한 부가기능과 최신 멀티미디어 콘텐츠를
+          액티브X 없이 브라우저에서 쉽게 볼 수 있게 하는 것을 목적으로 한다.
+        </p>
+      </div>
+      <div class="visual-item next">
+        <h2 class="section-heading">UI/UX & Graphic Designer2</h2>
+        <p class="section-paragraph">
+          HTML5는 HTML 4.01, XHTML 1.0, DOM 레벨 2 HTML에 대한 차기 표준
+          제안이다. 비디오, 오디오 등 다양한 부가기능과 최신 멀티미디어 콘텐츠를
+          액티브X 없이 브라우저에서 쉽게 볼 수 있게 하는 것을 목적으로 한다.
+        </p>
+      </div>
+      <div class="visual-item prev">
+        <h2 class="section-heading">UI/UX & Graphic Designer3</h2>
+        <p class="section-paragraph">
+          HTML5는 HTML 4.01, XHTML 1.0, DOM 레벨 2 HTML에 대한 차기 표준
+          제안이다. 비디오, 오디오 등 다양한 부가기능과 최신 멀티미디어 콘텐츠를
+          액티브X 없이 브라우저에서 쉽게 볼 수 있게 하는 것을 목적으로 한다.
+        </p>
+      </div>
     </section>
     <section class="section2">
-      <div class="group">
+      <ul class="tab">
+        <li class="tab-item active">Group 1</li>
+        <li class="tab-item">Group 2</li>
+        <li class="tab-item">Group 3</li>
+        <li class="tab-item">All</li>
+      </ul>
+      <div class="group active">
         <figure class="visual-area">
           <img src="/project/resources/image_01.jpg" alt="" />
         </figure>
@@ -85,13 +112,22 @@
           <img src="/project/resources/image_10.jpg" alt="" />
         </figure>
         <figure class="visual-area">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/5ch94AaPZRQ?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/5ch94AaPZRQ?autoplay=1&mute=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </figure>
       </div>
     </section>
     <footer class="footer">
       <article class="article">
-        <mark>Piroll Design, Inc.</mark><!-- HTML5에서 추가 -->
+        <mark>Piroll Design, Inc.</mark
+        ><!-- HTML5에서 추가 -->
         <em>&copy; 2022 Piroll. All Right Reserved.</em>
       </article>
       <article class="article">
